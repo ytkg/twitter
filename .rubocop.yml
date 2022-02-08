@@ -4,6 +4,9 @@ AllCops:
 Layout/AccessModifierIndentation:
   EnforcedStyle: outdent
 
+Lint/ConstantDefinitionInBlock:
+  Enabled: false
+
 Layout/LineLength:
   AllowURI: true
   Enabled: false
@@ -49,6 +52,9 @@ Style/DoubleNegation:
   Enabled: false
 
 Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/HashTransformValues:
   Enabled: false
 
 Style/NumericPredicate:
